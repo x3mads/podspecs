@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorPangle",
+  "version": "5.7.0.7.0",
+  "summary": "XMediator Pangle Adapter",
+  "description": "XMediator Pangle Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.40"
+    ],
+    "Ads-Global": [
+      "5.7.0.7"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorPangle/XMediatorPangle-5.7.0.7.0.zip"
+  },
+  "vendored_frameworks": "XMediatorPangle.xcframework",
+  "preserve_paths": "XMediatorPangle.xcframework",
+  "swift_version": "5.0"
+}

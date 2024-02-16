@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorRenderer",
+  "version": "2.1.0.3",
+  "summary": "XMediator Renderer Adapter using Prebid Mobile",
+  "description": "XMediator Renderer Adapter using Prebid Mobile.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.23"
+    ],
+    "PrebidMobile": [
+      "2.1.0-x3m-4"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorRenderer/XMediatorRenderer-2.1.0.3.zip"
+  },
+  "vendored_frameworks": "XMediatorRenderer.xcframework",
+  "preserve_paths": "XMediatorRenderer.xcframework",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorGoogleAds",
+  "version": "10.13.0.3",
+  "summary": "XMediator Google Ads and Google Ad Manager Adapter",
+  "description": "XMediator Google Ads and Google Ad Manager Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.41"
+    ],
+    "Google-Mobile-Ads-SDK": [
+      "10.13.0"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorGoogleAds/XMediatorGoogleAds-10.13.0.3.zip"
+  },
+  "vendored_frameworks": "XMediatorGoogleAds.xcframework",
+  "preserve_paths": "XMediatorGoogleAds.xcframework",
+  "swift_version": "5.0"
+}

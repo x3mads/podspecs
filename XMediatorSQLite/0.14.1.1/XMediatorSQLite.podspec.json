@@ -1,0 +1,31 @@
+{
+  "name": "XMediatorSQLite",
+  "version": "0.14.1.1",
+  "summary": "A type-safe, Swift-language layer over SQLite3.",
+  "description": "SQLite.swift provides compile-time confidence in SQL statement syntax and\nintent.",
+  "homepage": "https://github.com/stephencelis/SQLite.swift",
+  "license": "MIT",
+  "authors": {
+    "Stephen Celis": "stephen@stephencelis.com"
+  },
+  "social_media_url": "https://twitter.com/stephencelis",
+  "module_name": "XMediatorSQLite",
+  "swift_versions": [
+    "5"
+  ],
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "9.1",
+    "osx": "10.10",
+    "watchos": "3.0"
+  },
+  "exclude_files": "Sources/**/Cipher.swift",
+  "libraries": "sqlite3",
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorSQLite/XMediatorSQLite-0.14.1.1.zip"
+  },
+  "vendored_frameworks": "XMediatorSQLite.xcframework",
+  "preserve_paths": "XMediatorSQLite.xcframework",
+  "swift_version": "5"
+}

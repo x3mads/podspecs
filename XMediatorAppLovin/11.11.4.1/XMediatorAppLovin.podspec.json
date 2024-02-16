@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorAppLovin",
+  "version": "11.11.4.1",
+  "summary": "XMediator AppLovin Adapter",
+  "description": "XMediator AppLovin Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.40"
+    ],
+    "AppLovinSDK": [
+      "11.11.4"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorAppLovin/XMediatorAppLovin-11.11.4.1.zip"
+  },
+  "vendored_frameworks": "XMediatorAppLovin.xcframework",
+  "preserve_paths": "XMediatorAppLovin.xcframework",
+  "swift_version": "5.0"
+}

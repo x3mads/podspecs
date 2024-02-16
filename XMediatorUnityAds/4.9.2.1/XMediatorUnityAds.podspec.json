@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorUnityAds",
+  "version": "4.9.2.1",
+  "summary": "XMediator UnityAds Adapter",
+  "description": "XMediator UnityAds Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.40"
+    ],
+    "UnityAds": [
+      "4.9.2"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorUnityAds/XMediatorUnityAds-4.9.2.1.zip"
+  },
+  "vendored_frameworks": "XMediatorUnityAds.xcframework",
+  "preserve_paths": "XMediatorUnityAds.xcframework",
+  "swift_version": "5.0"
+}
