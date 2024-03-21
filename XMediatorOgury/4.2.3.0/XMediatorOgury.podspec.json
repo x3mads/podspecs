@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorOgury",
+  "version": "4.2.3.0",
+  "summary": "XMediator Ogury Adapter",
+  "description": "XMediator Ogury Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.47"
+    ],
+    "OgurySdk": [
+      "4.2.3"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorOgury/XMediatorOgury-4.2.3.0.zip"
+  },
+  "vendored_frameworks": "XMediatorOgury.xcframework",
+  "preserve_paths": "XMediatorOgury.xcframework",
+  "swift_version": "5.0"
+}
