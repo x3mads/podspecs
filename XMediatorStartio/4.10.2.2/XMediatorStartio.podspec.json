@@ -1,0 +1,36 @@
+{
+  "name": "XMediatorStartio",
+  "version": "4.10.2.2",
+  "summary": "XMediator Startio Adapter",
+  "description": "XMediator Startio Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.47"
+    ],
+    "StartAppSDK": [
+      "4.10.2"
+    ]
+  },
+  "exclude_files": "XMediatorStartio/Classes/umbrella",
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "${PODS_TARGET_SRCROOT}/XMediatorStartio/Classes/umbrella"
+  },
+  "preserve_paths": "XMediatorStartio.xcframework",
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorStartio/XMediatorStartio-4.10.2.2.zip"
+  },
+  "vendored_frameworks": "XMediatorStartio.xcframework",
+  "swift_version": "5.0"
+}
