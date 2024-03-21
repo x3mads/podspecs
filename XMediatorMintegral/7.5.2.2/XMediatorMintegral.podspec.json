@@ -1,0 +1,38 @@
+{
+  "name": "XMediatorMintegral",
+  "version": "7.5.2.2",
+  "summary": "XMediator Mintegral Adapter",
+  "description": "XMediator Mintegral Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.47"
+    ],
+    "MintegralAdSDK/NewInterstitialAd": [
+      "7.5.2"
+    ],
+    "MintegralAdSDK/RewardVideoAd": [
+      "7.5.2"
+    ],
+    "MintegralAdSDK/BidNativeAd": [
+      "7.5.2"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorMintegral/XMediatorMintegral-7.5.2.2.zip"
+  },
+  "vendored_frameworks": "XMediatorMintegral.xcframework",
+  "preserve_paths": "XMediatorMintegral.xcframework",
+  "swift_version": "5.0"
+}
