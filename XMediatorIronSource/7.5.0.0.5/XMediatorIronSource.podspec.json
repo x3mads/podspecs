@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorIronSource",
+  "version": "7.5.0.0.5",
+  "summary": "XMediator IronSource Adapter",
+  "description": "XMediator IronSource Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.47"
+    ],
+    "IronSourceSDK": [
+      "7.5.0.0"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorIronSource/XMediatorIronSource-7.5.0.0.5.zip"
+  },
+  "vendored_frameworks": "XMediatorIronSource.xcframework",
+  "preserve_paths": "XMediatorIronSource.xcframework",
+  "swift_version": "5.0"
+}
