@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorFyber",
+  "version": "8.2.6.2",
+  "summary": "XMediator DT Exchange Adapter",
+  "description": "XMediator DT Exchange Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.7.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.47"
+    ],
+    "Fyber_Marketplace_SDK": [
+      "8.2.6"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorFyber/XMediatorFyber-8.2.6.2.zip"
+  },
+  "vendored_frameworks": "XMediatorFyber.xcframework",
+  "preserve_paths": "XMediatorFyber.xcframework",
+  "swift_version": "5.0"
+}
