@@ -1,0 +1,31 @@
+{
+  "name": "XMediatorFacebook",
+  "version": "6.15.2.0",
+  "summary": "XMediator Meta Audience Network Adapter",
+  "description": "XMediator Meta Audience Network Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.13.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.47"
+    ],
+    "FBAudienceNetwork": [
+      "6.15.2"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorFacebook/XMediatorFacebook-6.15.2.0.zip"
+  },
+  "vendored_frameworks": "XMediatorFacebook.xcframework",
+  "swift_version": "5.0"
+}
