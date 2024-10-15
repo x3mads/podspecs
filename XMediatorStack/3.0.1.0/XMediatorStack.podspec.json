@@ -1,0 +1,37 @@
+{
+  "name": "XMediatorStack",
+  "version": "3.0.1.0",
+  "summary": "XMediator Stack (BidMachine) Adapter",
+  "description": "XMediator Stack (BidMachine) Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.13.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.47"
+    ],
+    "BidMachine": [
+      "3.0.1"
+    ],
+    "StackModules": [
+      "2.2.0"
+    ],
+    "OMSDK_Appodeal": [
+      "1.5.2"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorStack/XMediatorStack-3.0.1.0.zip"
+  },
+  "vendored_frameworks": "XMediatorStack.xcframework",
+  "swift_version": "5.0"
+}
