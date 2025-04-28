@@ -1,0 +1,27 @@
+{
+  "name": "XMediatorUnityProxy",
+  "version": "1.103.0.0",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "summary": "XMediator proxy for Unity builds.",
+  "authors": "X3M",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "requires_arc": true,
+  "dependencies": {
+    "XMediator": [
+      "~> 1.103"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorUnityProxy/XMediatorUnityProxy-1.103.0.0.zip"
+  },
+  "vendored_frameworks": "XMediatorUnityProxy.xcframework",
+  "swift_version": "5.0"
+}
