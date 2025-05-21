@@ -1,0 +1,31 @@
+{
+  "name": "XMediatorMobileFuse",
+  "version": "1.9.2.0",
+  "summary": "XMediator MobileFuse Adapter",
+  "description": "XMediator MobileFuse Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.13.0",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.59"
+    ],
+    "MobileFuseSDK": [
+      "1.9.2"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorMobileFuse/XMediatorMobileFuse-1.9.2.0.zip"
+  },
+  "vendored_frameworks": "XMediatorMobileFuse.xcframework",
+  "swift_version": "5.0"
+}
