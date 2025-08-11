@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorCocos2dx",
+  "version": "1.114.0.0",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "summary": "XMediator for Cocos2d-x builds.",
+  "authors": "X3M",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "requires_arc": true,
+  "module_map": false,
+  "libraries": "c++",
+  "user_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_XCFRAMEWORKS_BUILD_DIR}/XMediatorCocos2dx/XMediatorCocos2dx.framework/Headers\""
+  },
+  "dependencies": {
+    "XMediatorObjC": [
+      "~> 1.114"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorCocos2dx/XMediatorCocos2dx-1.114.0.0.zip"
+  },
+  "vendored_frameworks": "XMediatorCocos2dx.xcframework",
+  "swift_version": "5.0"
+}
