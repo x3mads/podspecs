@@ -1,0 +1,38 @@
+{
+  "name": "XMediator",
+  "version": "1.123.0",
+  "summary": "An ads mediation solution by X3M",
+  "description": "XMediator is an ads mediation solution by X3M, that enables you to integrate an app or game with over 20 advertising partners.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.13.0",
+  "weak_frameworks": [
+    "AppTrackingTransparency",
+    "AdSupport",
+    "Network",
+    "OSLog"
+  ],
+  "libraries": "z",
+  "dependencies": {
+    "XMediatorSQLite": [
+      "0.14.1.1"
+    ]
+  },
+  "resource_bundles": {
+    "XMediator": "Resources/*"
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediator/XMediator-1.123.0.zip"
+  },
+  "vendored_frameworks": "XMediator.xcframework",
+  "swift_version": "5.0"
+}
