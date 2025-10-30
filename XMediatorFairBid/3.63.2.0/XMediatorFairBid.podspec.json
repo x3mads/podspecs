@@ -1,0 +1,34 @@
+{
+  "name": "XMediatorFairBid",
+  "version": "3.63.2.0",
+  "summary": "XMediator FairBid Adapter",
+  "description": "XMediator FairBid Adapter.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.12.0",
+  "resource_bundles": {
+    "XMediatorFairBid": "Resources/*"
+  },
+  "dependencies": {
+    "XMediator": [
+      "~> 1.103"
+    ],
+    "FairBidSDK": [
+      "3.63.2"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorFairBid/XMediatorFairBid-3.63.2.0.zip"
+  },
+  "vendored_frameworks": "XMediatorFairBid.xcframework",
+  "swift_version": "5.0"
+}
