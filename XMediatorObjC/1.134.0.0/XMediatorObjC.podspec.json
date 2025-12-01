@@ -1,0 +1,27 @@
+{
+  "name": "XMediatorObjC",
+  "version": "1.134.0.0",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "summary": "XMediator Objective-C layer.",
+  "authors": "X3M",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "requires_arc": true,
+  "dependencies": {
+    "XMediator": [
+      "1.134.0"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorObjC/XMediatorObjC-1.134.0.0.zip"
+  },
+  "vendored_frameworks": "XMediatorObjC.xcframework",
+  "swift_version": "5.0"
+}
