@@ -1,0 +1,32 @@
+{
+  "name": "XMediatorAppsFlyer",
+  "version": "6.17.0.0",
+  "summary": "XMediator Plugin for AppsFlyer service",
+  "description": "XMediator Adapter for AppsFlyer service.",
+  "homepage": "https://x3mads.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "https://x3mads.com/terms"
+  },
+  "authors": "X3M",
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.13.0",
+  "frameworks": "StoreKit",
+  "dependencies": {
+    "XMediator": [
+      "~> 1.166"
+    ],
+    "AppsFlyerFramework": [
+      "~> 6.17.0"
+    ]
+  },
+  "source": {
+    "http": "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorAppsFlyer/XMediatorAppsFlyer-6.17.0.0.zip"
+  },
+  "vendored_frameworks": "XMediatorAppsFlyer.xcframework",
+  "swift_version": "5.0"
+}
